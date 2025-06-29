@@ -1,0 +1,14 @@
+fun void main()
+  var int x;
+  var int y;
+  var int z;
+  var int f;
+  x = 0;
+  y = 1;
+  z = 1;
+  while x < 5 do
+        f = z + y + 2 * 4;
+        x = x + 1
+  endwhile;
+  print(x)
+endfun
